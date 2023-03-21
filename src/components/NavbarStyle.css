@@ -3,8 +3,20 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
 }
-
+.header-bg {
+    background-color: rgba(95, 66, 3, 0.9);
+    transition: 0.5s;
+}
+.logo {
+    position: flex;
+    width: 100px;
+    height: 100px;
+}
 .nav-menu {
     display: flex;
 }
@@ -15,7 +27,8 @@
 
 .nav-menu li a {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 700;
+    color: #fff;
 }
 
 /* Hamburger menu icon */
@@ -25,16 +38,23 @@
 
 /* Making the navlinks responsive */
 @media screen and (max-width: 1040px) {
+    .logo {
+        /* align-items: center; */
+        position: flex;
+        width: 50px;
+        height: 50px;
+    }
     .nav-menu {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(95, 66, 3, 0.9);
+        /* opacity: 0.7; */
         position: absolute;
         top: 0;
-        left: -100%;
+        left: -120%;
         z-index: -3;
         transition: 0.3s;
     }

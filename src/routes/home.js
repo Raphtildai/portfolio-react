@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
-import Navbar from '../components/HeroImg';
+import HeroImg from '../components/HeroImg';
+import Footer from '../components/Footer';
 
 const home = () => {
   return (
     <div>
       <Navbar />
       <HeroImg />
+      <Footer />
     </div>
   );
 }

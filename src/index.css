@@ -8,12 +8,21 @@
 }
 
 body {
-  background: gray;
+  background: #ffff;
+  /* margin: 0 4rem; */
+  /* margin-left: 4rem;
+  margin-right: 4rem; */
 }
+
+/* Logo */
+/* .logo {
+  width: 100px;
+  height: 100px;
+} */
 
 /* Global Styles that will apply to the entire webpage */
 h1,h2,h3,h4,p,a {
-  color: #ffff;
+  color: black;
   text-decoration: none;
 }
 
@@ -26,7 +35,7 @@ ul {
   font-size: 1rem;
   text-transform: uppercase;
   background: #261fff;
-  color: #ffff;
+  color: #fff;
   border: 1px solid #ff9700;
   font-weight: 600;
   cursor: pointer;
@@ -34,7 +43,7 @@ ul {
 
 .btn-light {
   background: transparent;
-  color: #ffff;
+  color: #fff;
 }
 
 .btn:hover {
