@@ -1,8 +1,8 @@
-.project-heading {
+.certificate-heading {
     text-align: center;
     padding: 4rem 0 2rem 0;
 }
-.project-container {
+.certificate-container {
     max-width: 1140px;
     margin: auto;
     display: grid;
@@ -10,20 +10,26 @@
     grid-gap: 40px;
     padding-bottom: 5rem;
 }
-.project-card {
+.certificate-card {
     border: 1px solid #ff9700;
     border-radius: 10px;
     background: #fff;
     padding: 1.2rem 1rem;
 }
-.project-card img {
+.certificate-card img {
     border-radius: 10px;
     width: 100%;
 }
-.project-card img:hover {
+.certificate-card img:hover {
     opacity: 0.3;
 }
-.project-title {
+.certificate-date {
+    color: black;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.certificate-title {
     color: black;
     /* padding: 1rem 0; */
     text-align: center;
@@ -32,7 +38,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-.project-details p {
+.certificate-details p {
     color: black;
     /* padding-bottom: 1rem;
     font-size: 1.1rem;
@@ -42,22 +48,24 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-.project-btns {
+.certificate-btns {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
 }
-.project-btns .btn {
+.certificate-btns .btn {
+    text-align: center;
+    width: 60%;
     padding: 0.5rem 1rem;
 }
-.project-btns .btn-light {
+.certificate-btns .btn-light {
     color: #ff9700;
-}.project-btns .btn-light:hover {
+}.certificate-btns .btn-light:hover {
     color: #fff;
 }
 
 @media screen and (max-width: 740px) {
-    .project-container {
+    .certificate-container {
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;

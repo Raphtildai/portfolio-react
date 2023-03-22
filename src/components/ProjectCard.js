@@ -9,10 +9,10 @@ const ProjectCard = (props) => {
         <img src={props.imgsrc} alt="ProjectImg"></img>
         <h2 className="project-title">{props.title}</h2>
         <div className="project-details">
-            <p>{props.text}</p>
+            <p>{props.text }</p>
             <div className="project-btns">
-                <NavLink to={props.view} className="btn">View</NavLink>
-                <NavLink to={props.view} className="btn btn-light" >Source</NavLink>
+                <NavLink to="/SingleProject" className="btn">Read More</NavLink>
+                <NavLink to={props.view} className="btn btn-light" >View</NavLink>
             </div>
         </div>
     </div>
