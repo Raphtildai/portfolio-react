@@ -1,3 +1,28 @@
+.contact {
+    background-color: lightgray;
+    width: 100%;
+    padding: 6rem 0;
+}
+.contact-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+.social-links {
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 600px;
+}
+.social-link {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+}
 label {
     color: black;
     margin-bottom: 0.5rem;
@@ -41,4 +66,10 @@ form input, form textarea {
     border-color: lightgray;
     border-radius: 10px;
     color: black;
+}
+
+@media screen and (max-width: 740px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
 }
