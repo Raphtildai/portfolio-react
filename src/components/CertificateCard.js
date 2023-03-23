@@ -7,7 +7,7 @@ const CertificateCard = (props) => {
   return (
     <div className="certificate-card">
         <img src={props.imgsrc} alt="certificateImg"></img>
-        {/* <h3 className="certificate-date">{this.props.date}</h3> */}
+        <h2 className="certificate-date">{props.completion_date}</h2>
         <h2 className="certificate-title">{props.title}</h2>
         <div className="certificate-details">
             <p>{ props.description }</p>

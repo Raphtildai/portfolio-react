@@ -25,22 +25,22 @@
 }
 .project-title {
     color: black;
-    /* padding: 1rem 0; */
+    padding: 1rem 0;
     text-align: center;
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* Number of lines to show */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    /* display: -webkit-box; */
+    /* -webkit-line-clamp: 2; Number of lines to show */
+    /* -webkit-box-orient: vertical;
+    overflow: hidden; */
 }
 .project-details p {
     color: black;
-    /* padding-bottom: 1rem;
+    padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: justify; */
-    display: -webkit-box;
-    -webkit-line-clamp: 4; /* Number of lines to show */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    text-align: justify;
+    /* display: -webkit-box;
+    -webkit-line-clamp: 4; Number of lines to show */
+    /* -webkit-box-orient: vertical;
+    overflow: hidden; */
 }
 .project-btns {
     display: flex;

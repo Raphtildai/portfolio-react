@@ -15,7 +15,7 @@ class Certificate extends Component {
                               return (
                                   <CertificateCard 
                                       key = { index }
-                                      date = { val.date }
+                                      completion_date = { val.completion_date }
                                       imgsrc = { val.imgsrc }
                                       title = { val.title }
                                       description = { val.description }
