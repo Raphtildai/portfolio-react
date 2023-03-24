@@ -2,6 +2,7 @@ import "./FooterStyle.css";
 import React from 'react'
 
 import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,10 +27,10 @@ const Footer = () => {
                 <h4>About Me</h4>
                 <p>Dedicated and enthusiastic software engineer with four years of front end and back end programming expertise for both web and mobile applications.</p>
                 <div className="socials">
-                    <FaFacebook size={30} style={{color: "#fff", marginRight: "1rem"}} />
-                    <FaTwitter size={30} style={{color: "#fff", marginRight: "1rem"}} />
-                    <FaLinkedin size={30} style={{color: "#fff", marginRight: "1rem"}} />
-                    <FaGithub size={30} style={{color: "#fff", marginRight: "1rem"}} />
+                    <NavLink to="https://www.facebook.com/profile.php?id=100084354161664" target={"_blank"}><FaFacebook size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>
+                    <NavLink to="https://twitter.com/Tildai10" target={"_blank"}><FaTwitter size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>
+                    <NavLink to="https://www.linkedin.com/in/raphael-tildai-83b410190/" target={"_blank"}><FaLinkedin size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>
+                    <NavLink to="https://github.com/Raphtildai" target={"_blank"}><FaGithub size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>
 
                 </div>
             </div>

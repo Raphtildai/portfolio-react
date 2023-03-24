@@ -1,5 +1,5 @@
 .contact {
-    background-color: lightgray;
+    background-color: #fff;
     width: 100%;
     padding: 6rem 0;
 }
@@ -14,14 +14,35 @@
     padding: 4rem 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: auto;
     max-width: 600px;
+}
+.social-link:hover {
+    background-color: #ff9700;
+    padding: 2rem 1rem;
+    opacity: 0.7;
 }
 .social-link {
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
+    margin-top: 2rem;
     padding: 1rem;
+}
+.social-link h2:hover {
+    color: #fff;
+}.social-link h3:hover {
+    color: #fff;
+}
+.social-link:hover {
+    border: 1px solid #261fff;
+}
+.icon {
+    color: #261fff;
+}
+.icon:hover {
+    color: #fff;
 }
 label {
     color: black;
@@ -52,11 +73,17 @@ label {
     margin-top: 2rem;
 }
 form {
+    border: 1px solid black;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 4rem 1rem;
     margin: auto;
     max-width: 600px;
+}
+.form:hover {
+    border: 1px solid #261fff;
+    border-radius: 10px;
 }
 form input, form textarea {
     margin-bottom: 1rem;
@@ -71,5 +98,9 @@ form input, form textarea {
 @media screen and (max-width: 740px) {
     .contact-container {
         grid-template-columns: 1fr;
+    }
+    .social-link  {
+        margin-top: 1rem;
+        max-width: 100%;
     }
 }

@@ -13,6 +13,10 @@
     padding: 1rem;
     max-width: 350px;
 }
+.about .left:hover{
+    border: 1px solid #261fff;
+    border-radius: 10px;
+}
 .about .left p {
     color: black;
     margin: 1.2rem 0;
@@ -41,4 +45,20 @@
     grid-column: 4 / -1;
     grid-row: 1;
     z-index: 5;
+}
+.resume-btn {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+}
+.resume-btn .btn {
+    text-align: center;
+    height: 100%;
+    width: 300px;
+    color: #ff9700;
+}
+.resume-btn .btn:hover {
+    color: #fff;
 }

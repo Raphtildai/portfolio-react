@@ -49,19 +49,19 @@ const MyForm = () => {
           <div className="social-links">
             <div className="social-link">
               <NavLink to="https://wa.me/+254725341547">
-                <FaWhatsapp />
+                <span className="icon"><FaWhatsapp size={40} /></span>
                 <h2>WhatsApp</h2><h3>+254 725 341 547</h3>
               </NavLink>
             </div>
             <div className="social-link">
               <NavLink to="mailto:kipchirchirraph@gmail.com">
-                <FaMailBulk />
+              <span className="icon"><FaMailBulk size={40} /></span>
                 <h2>Email</h2><h3>kipchirchirraph@gmail.com</h3>
               </NavLink>
             </div>
             <div className="social-link">
               <NavLink to="tel:+254725341547">
-                <FaPhone />
+              <span className="icon"><FaPhone size={40} /></span>
                 <h2>Phone</h2><h3>+254 725 341 547</h3>
               </NavLink>
             </div>
