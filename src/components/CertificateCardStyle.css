@@ -2,6 +2,9 @@
     text-align: center;
     padding: 4rem 0 2rem 0;
 }
+.certificate-heading:hover {
+    color: #ff9700;
+}
 .certificate-container {
     max-width: 1140px;
     margin: auto;
@@ -10,11 +13,16 @@
     grid-gap: 40px;
     padding-bottom: 5rem;
 }
+
 .certificate-card {
-    border: 1px solid #ff9700;
+    /* border: 1px solid #ff9700; */
     border-radius: 10px;
     background: #fff;
     padding: 1.2rem 1rem;
+}
+.certificate-card:hover {
+    border: 1px solid#261fff;
+    border-radius: 10px;
 }
 .certificate-card img {
     border-radius: 10px;
@@ -31,34 +39,22 @@
 }
 .certificate-title {
     color: black;
-    /* padding: 1rem 0; */
+    padding: 1rem 0;
     text-align: center;
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* Number of lines to show */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 .certificate-details p {
     color: black;
-    /* padding-bottom: 1rem;
+    padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: justify; */
-    display: -webkit-box;
-    -webkit-line-clamp: 4; /* Number of lines to show */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    text-align: justify;
 }
 .certificate-btns {
     display: flex;
-    justify-content: center;
-    padding: 0.5rem 0;
-}
-.certificate-btns .btn {
-    text-align: center;
-    width: 60%;
+    justify-content: space-between;
     padding: 0.5rem 1rem;
 }
 .certificate-btns .btn-light {
+    text-align: center;
     color: #ff9700;
 }.certificate-btns .btn-light:hover {
     color: #fff;
@@ -66,22 +62,53 @@
 
 @media screen and (max-width: 360px) {
     .certificate-container {
-        max-width: 90%;
+        max-width: 360px;
         margin: auto;
+        /* display: flex;
+        flex-direction: column; */
         grid-template-columns: 1fr;
-    }    
+    } 
+    .certificate-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+        margin: auto;
+    }
+    .certificate-btns .btn {
+        margin-bottom: 1rem;
+    }
+    .certificate-card {
+        max-width: 100%;
+        height: 100%; 
+    } 
+    .certificate-btns .btn-light {
+        text-align: center;
+    }   
 }
 
 @media screen and (max-width: 740px) and ( min-width: 360px) {
     .certificate-container {
-        max-width: 100%;
+        max-width: 740px;
         height: 100%;
         margin: auto;
         display: grid;
-        grid-gap: 20px;
+        grid-gap: 10px;
         grid-template-columns: repeat(2, 1fr);  
-    }
-    /* .certificate-card {
+    } 
+    .certificate-btns {
         max-width: 100%;
-    } */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        padding: 0.5rem 0;
+    } 
+    .certificate-btns .btn {
+        margin-bottom: 1rem;
+    }
+    .certificate-card {
+        max-width: 100%;
+        height: 100%;   
+    }
 }

@@ -47,9 +47,25 @@
     margin: 2rem auto;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 360px) {
     .card-container {
-        max-width: 90%;
+        max-width: 360px;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .card {
+        max-width: 70%;
+    }
+    .btc {
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 740px) and (min-width: 360px) {
+    .card-container {
+        max-width: 740px;
         margin: auto;
         grid-template-columns: 1fr;
     }

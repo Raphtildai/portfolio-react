@@ -19,7 +19,7 @@ const ProjectCard = (props) => {
             <p>{showContent ? props.text : (props.text.length > 100 ? props.text.slice(0, 100) + " ..." : props.text) }</p>
             <div className="project-btns">
                 <button onClick={toggleContent} className="btn">{showContent ? 'Show Less' : 'Read More' }</button>
-                <NavLink to={props.view} className="btn btn-light" >View</NavLink>
+                <NavLink to={props.view} target={"_blank"} className="btn btn-light" >View</NavLink>
             </div>
         </div>
     </div>
