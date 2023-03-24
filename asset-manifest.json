@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.1ae03403.css",
-    "main.js": "/portfolio-react/static/js/main.8802f24d.js",
+    "main.css": "/portfolio-react/static/css/main.a108a890.css",
+    "main.js": "/portfolio-react/static/js/main.389c3829.js",
+    "static/media/iebc.PNG": "/portfolio-react/static/media/iebc.db6bd4e04fae631110c8.PNG",
+    "static/media/ollessos.PNG": "/portfolio-react/static/media/ollessos.21e762a8149985788cb0.PNG",
+    "static/media/datascientisttoolbox.PNG": "/portfolio-react/static/media/datascientisttoolbox.3f0770c4090ddf4e78a6.PNG",
+    "static/media/rprogramming.PNG": "/portfolio-react/static/media/rprogramming.1301392cafd232bbb643.PNG",
+    "static/media/google.PNG": "/portfolio-react/static/media/google.61c6d7abbb0a3d177df2.PNG",
+    "static/media/javascript.PNG": "/portfolio-react/static/media/javascript.ded79e48c3c64e3a31ab.PNG",
+    "static/media/cybersecurity.PNG": "/portfolio-react/static/media/cybersecurity.c6a27731800c16a197ff.PNG",
     "static/media/logo.png": "/portfolio-react/static/media/logo.81007bb713990d9a56fd.png",
     "index.html": "/portfolio-react/index.html",
-    "main.1ae03403.css.map": "/portfolio-react/static/css/main.1ae03403.css.map",
-    "main.8802f24d.js.map": "/portfolio-react/static/js/main.8802f24d.js.map"
+    "main.a108a890.css.map": "/portfolio-react/static/css/main.a108a890.css.map",
+    "main.389c3829.js.map": "/portfolio-react/static/js/main.389c3829.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ae03403.css",
-    "static/js/main.8802f24d.js"
+    "static/css/main.a108a890.css",
+    "static/js/main.389c3829.js"
   ]
 }
