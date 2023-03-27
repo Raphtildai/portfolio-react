@@ -10,7 +10,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-    <Routes>
+    <Routes basename="/portfolio-react">
       <Route path="/portfolio-react" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/about" element={<About />} />
