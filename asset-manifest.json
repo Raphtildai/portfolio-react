@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.dc614aa2.css",
-    "main.js": "/portfolio-react/static/js/main.414e0a65.js",
+    "main.css": "/portfolio-react/static/css/main.4128bb99.css",
+    "main.js": "/portfolio-react/static/js/main.74e42eee.js",
     "static/media/iebc.PNG": "/portfolio-react/static/media/iebc.db6bd4e04fae631110c8.PNG",
     "static/media/ollessos.PNG": "/portfolio-react/static/media/ollessos.21e762a8149985788cb0.PNG",
     "static/media/datascientisttoolbox.PNG": "/portfolio-react/static/media/datascientisttoolbox.3f0770c4090ddf4e78a6.PNG",
@@ -11,11 +11,11 @@
     "static/media/cybersecurity.PNG": "/portfolio-react/static/media/cybersecurity.c6a27731800c16a197ff.PNG",
     "static/media/logo.png": "/portfolio-react/static/media/logo.81007bb713990d9a56fd.png",
     "index.html": "/portfolio-react/index.html",
-    "main.dc614aa2.css.map": "/portfolio-react/static/css/main.dc614aa2.css.map",
-    "main.414e0a65.js.map": "/portfolio-react/static/js/main.414e0a65.js.map"
+    "main.4128bb99.css.map": "/portfolio-react/static/css/main.4128bb99.css.map",
+    "main.74e42eee.js.map": "/portfolio-react/static/js/main.74e42eee.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc614aa2.css",
-    "static/js/main.414e0a65.js"
+    "static/css/main.4128bb99.css",
+    "static/js/main.74e42eee.js"
   ]
 }
