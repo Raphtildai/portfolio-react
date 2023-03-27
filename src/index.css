@@ -53,3 +53,19 @@ ul {
   color: #ffff;
   transition: 0.3s;
 }
+
+/* 404 page */
+.error-page {
+  max-width: 600px;
+  align-items: center;
+}
+.error-logo {
+  display: flex;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+}
+.error-text {
+  text-align: center;
+  font-size: 1.4rem;
+}
