@@ -11,6 +11,7 @@ const ProjectCard = (props) => {
   }
   return (
     <div className="project-card">
+      <h2 className="project-date">{props.date}</h2>
         <img src={props.imgsrc} alt="ProjectImg"></img>
         <h2 className="project-title">
           {showContent ? props.title : (props.title.length > 25 ? props.title.slice(0, 25) + " ..." : props.title)}

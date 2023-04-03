@@ -4,7 +4,7 @@
     background-color: rgba(95, 66, 3, 0.9);
 }
 .footer-container {
-    max-width: 1140px;
+    max-width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -59,8 +59,25 @@ p {
     padding: 1rem;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
+    .footer {
+        width: 100%;
+        border-radius: 10px;
+        margin: 1rem;
+    }
     .footer-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .location p,
+    .phone h4,
+    .email h4 {
+        font-size: 1rem;
+    }
+    .right h4, p {
+        font-size: 1rem;
     }
 }

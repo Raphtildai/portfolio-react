@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 480px) {
     .certificate-container {
-        max-width: 480px;
+        max-width: 80%;
         margin: auto;
         /* display: flex;
         flex-direction: column; */
@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 767px) and ( min-width: 480px) {
     .certificate-container {
-        max-width: 767px;
+        max-width: 90%;
         height: 100%;
         margin: auto;
         display: grid;

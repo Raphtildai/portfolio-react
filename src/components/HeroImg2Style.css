@@ -31,6 +31,11 @@
     font-size: 2.4rem;
     font-weight: 800;
 }
+.hero-img h1:hover {
+    padding: 1rem;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
 .hero-img p {
     color: #fff;
     padding-top: 1rem;

@@ -15,6 +15,7 @@ class Project extends Component {
                           return (
                               <ProjectCard 
                                   key = { index }
+                                  date = { val.date}
                                   imgsrc = { val.imgsrc }
                                   title = { val.title }
                                   text = { val.text }

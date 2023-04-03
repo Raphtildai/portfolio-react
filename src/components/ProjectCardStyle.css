@@ -41,6 +41,12 @@
     font-size: 1.1rem;
     text-align: justify;
 }
+.project-date {
+    color: #261fff;
+    padding: 1rem 0;
+    font-size: 1.0rem;
+    text-align: center;
+}
 .project-btns {
     /* width: 60%; */
     display: flex;
@@ -78,7 +84,7 @@
 
 @media screen and (max-width: 767px) and ( min-width: 480px)  {
     .project-container {
-        max-width: 767px;
+        max-width: 90%;
         height: 100%;
         margin: auto;
         display: grid;

@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import HeroImg2 from '../components/HeroImg2';
-import PricingCard from '../components/PricingCard';
+// import PricingCard from '../components/PricingCard';
 import Project from '../components/Project';
 
 const projects = () => {
@@ -11,7 +11,7 @@ const projects = () => {
       <Navbar />
       <HeroImg2 heading="PROJECTS." text="Here are my projects." />
       <Project />
-      <PricingCard />
+      {/* <PricingCard /> */}
       <Footer/>
       </div>
   )
