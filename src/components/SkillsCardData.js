@@ -1,13 +1,13 @@
 const SkillsCardData = [
     {
-        Frontend: ['React', 'HTML', 'CSS', 'JavaScript']
+        Frontend: ['React', 'HTML', 'CSS', 'JavaScript', 'Flutter']
 
     },
     {
-        Backend: ['Node.js', 'Express', 'MongoDB', 'MySQL']
+        Backend: ['Node.js', 'Express', 'PHP', 'MySQL', 'NoSQL']
     },
     {
-        Soft: ['Communication', 'Time Management', 'Leadership', 'Teamwork']
+        Soft: ['Attention to Details', 'Teamwork and Cooperation', 'Leadership', 'Time Management', 'Problem Solving']
     }
 ];
 

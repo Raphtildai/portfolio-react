@@ -11,7 +11,7 @@ const CertificateCard = (props) => {
   }
   return (
     <div className="certificate-card">
-        <img src={props.imgsrc} alt="certificateImg"></img>
+        <img src={props.imgsrc ? props.imgsrc : "https://source.unsplash.com/298x217/?programming certificate"} alt="certificateImg"></img>
         <h2 className="certificate-date">{props.completion_date}</h2>
         <h2 className="certificate-title">
           {showContent ? props.title : (props.title.length > 25 ? props.title.slice(0, 25) + " ..." : props.title)}</h2>

@@ -4,8 +4,31 @@ import datascientistToolbox from "../assets/images/datascientisttoolbox.PNG";imp
 import rprogramming from "../assets/images/rprogramming.PNG";
 import cybersecurity from "../assets/images/cybersecurity.PNG";
 import javascript from "../assets/images/javascript.PNG";
+import backend from "../assets/images/backend development.png";
+import frontend from "../assets/images/front end development.png";
 
 const CertificateCardData = [
+    {
+        imgsrc: "",
+        completion_date: "April 18, 2023",
+        title: "Global Entrepreneurship & Innovation Bootcamp",
+        description: "I completed Thunderbird School of Global Management's 100 Million Learners Bootcamp on Global Entrepreneurship & Innovation, a cutting-edge program that empowers entrepreneurs and innovators to achieve their dreams and elevate their careers. This unique curriculum focuses on global dynamics in an era of rapid change and disruption, with eighteen leading-edge themes that are crucial to success in the Fourth Industrial Revolution. The program is tailored for maximum flexibility, offering new dimensions in online management education, and provides templates for starting new global businesses and nonprofits, as well as proven 21st-century strategies for creating value through innovation in existing enterprises across all sectors. Thanks to the generous philanthropic gift from the Najafi Global Initiative, this program is available at no cost to learners at all educational levels and is the entry-level program of the 100 Million Learners Global Initiative. This program has equipped me with the skills and knowledge needed to be a successful entrepreneur and innovator in the global marketplace.",
+        verify: "https://drive.google.com/file/d/1Wmv-_nJWw_LTSxwknZ6dEsOkZ5LaKfCf/view?usp=sharing",
+    },
+    {
+        imgsrc: frontend,
+        completion_date: "January 26, 2023",
+        title: "Front-end Development using JavaScript and React.js",
+        description: "I completed an online bootcamp on frontend development using Javascript and React.js organized by DevTown. The program covered the fundamentals of Javascript, React.js, and related technologies, as well as best practices for designing and implementing user interfaces. Throughout the bootcamp, I worked on real-world projects and had access to a community of experienced mentors and peers who provided support and guidance. Upon completion, I received a certificate of completion from DevTown, demonstrating my mastery of frontend development using Javascript and React.js. This certificate is a valuable credential that showcases my skills and knowledge in web development.",
+        verify: "https://cert.devtown.in/verify/1SQDyh",
+    },
+    {
+        imgsrc: backend,
+        completion_date: "December 26, 2022",
+        title: "Back-end Web development using JavaScript and Node.js",
+        description: "I completed an online course on backend development using Javascript and Node.js, which equipped me with the skills and knowledge needed to build scalable and robust server-side applications. The program covered the fundamentals of Node.js, including its architecture, modules, and packages, and taught me how to design and implement RESTful APIs, manage databases, and deploy applications to the cloud. Throughout the course, I worked on real-world projects and gained hands-on experience, which enabled me to apply my skills in practical scenarios. This course has prepared me for a career as a backend developer and has given me a solid foundation in Javascript and Node.js.",
+        verify: "https://cert.devtown.in/verify/ZMioha",
+    },
     {
         imgsrc: javascript,
         completion_date: "June 24, 2022",

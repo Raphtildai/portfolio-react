@@ -27,6 +27,7 @@
 .certificate-card img {
     border-radius: 10px;
     width: 100%;
+    height: 217px;
 }
 .certificate-card img:hover {
     opacity: 0.3;
