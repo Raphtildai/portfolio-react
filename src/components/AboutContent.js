@@ -26,7 +26,7 @@ const AboutContent = () => {
             </div>
         </div>
         <div className="resume-btn">
-            <NavLink to="https://drive.google.com/file/d/1mx9clxems4p2xgoy9DSpb2ScrggN_NN-/view?usp=sharing" target={"_blank"}><div className="btn btn-light">My Resume</div></NavLink>
+            <NavLink to="https://drive.google.com/file/d/11CFZQstyJEJC3X2j3avGU5kVq_waHFib/view?usp=sharing" target={"_blank"}><div className="btn btn-light">My Resume</div></NavLink>
         </div>
     </div>
   )
