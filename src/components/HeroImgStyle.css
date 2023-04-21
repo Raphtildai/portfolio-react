@@ -18,7 +18,7 @@
     top: 0;
     left: 0;
     background-color: #ff9700;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 .hero {
     height: 100%;
@@ -36,7 +36,7 @@
     padding: 0.6rem 0 1.5rem;
 }
 .hero .content p {
-    font-size: 1.4rem;
+    font-size: 3rem;
     font-weight: 300;
     text-transform: uppercase;
 }
