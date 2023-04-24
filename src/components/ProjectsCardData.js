@@ -1,6 +1,14 @@
 // import logo from "../assets/images/logo.png"
 const ProjectCardData = [
     {
+        imgsrc: "https://source.unsplash.com/1600x1600/?communication",
+        date: "April 6, 2023",
+        title: "SMS Plugin for WooCommerce Using Mobile Sasa API",
+        text: "The 'Mobilesasa SMS' plugin is a WordPress plugin that enables website owners to send SMS messages using the Mobilesasa API. This plugin provides a convenient way for site owners to communicate with their customers via SMS after they make a purchase on their WooCommerce store. The plugin extracts the customer's phone number and order information and sends a custom SMS message to the customer, thanking them for their order, providing the total cost of the purchase, and providing links to track their order. The plugin registers a menu item in the WordPress admin dashboard, where users can configure the plugin's settings, including the API token and the phone number of the admin who will receive a notification whenever a new order is received. To use the plugin, site owners need to sign up for the Mobilesasa API, and obtain an API token, which they will enter into the plugin settings. The plugin then automatically sends SMS messages to customers whenever an order is placed, with the message content based on the settings configured by the site owner. The plugin also includes error handling, so if an SMS message fails to send, the admin will receive a notification about the error. Overall, the Mobilesasa SMS plugin is a useful tool for website owners who want to communicate with their customers via SMS and provide a more personalized experience.",
+        view: "#"
+
+    },
+    {
         imgsrc: "https://source.unsplash.com/1600x1600/?weather",
         date: "Jan 13, 2023",
         title: "SIMPLE WEATHER FORECASTING APPLICATION",

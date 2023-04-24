@@ -62,3 +62,11 @@
 .resume-btn .btn:hover {
     color: #fff;
 }
+
+
+@media screen and (max-width: 300px) {
+    .resume-btn .btn{
+        width: 100px;
+        padding: auto;
+    }
+}
