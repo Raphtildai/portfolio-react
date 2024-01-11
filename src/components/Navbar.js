@@ -27,12 +27,12 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-        <Link to="/portfolio-react">
+        <Link to="/">
             <img className="logo" src={ Logo } alt="Logo"></img>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
-                <Link to="/portfolio-react/">Home</Link>
+                <Link to="/">Home</Link>
             </li>
             <li>
                 <Link to="/about">About</Link>
