@@ -10,8 +10,8 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-    <Routes basename="/portfolio-react">
-      <Route path="/portfolio-react" element={<Home />} />
+    <Routes basename="/">
+      <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/about" element={<About />} />
       <Route path="/certifications" element={<Certifications />} />
