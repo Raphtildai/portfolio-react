@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a0c65b5.css",
+    "main.js": "/static/js/main.810e9632.js",
+    "static/media/iebc.PNG": "/static/media/iebc.db6bd4e04fae631110c8.PNG",
+    "static/media/ollessos.PNG": "/static/media/ollessos.21e762a8149985788cb0.PNG",
+    "static/media/datascientisttoolbox.PNG": "/static/media/datascientisttoolbox.3f0770c4090ddf4e78a6.PNG",
+    "static/media/rprogramming.PNG": "/static/media/rprogramming.1301392cafd232bbb643.PNG",
+    "static/media/google.PNG": "/static/media/google.61c6d7abbb0a3d177df2.PNG",
+    "static/media/backend development.png": "/static/media/backend development.b29a0690ac5294d18d63.png",
+    "static/media/front end development.png": "/static/media/front end development.ed4a7245136154e57dad.png",
+    "static/media/javascript.PNG": "/static/media/javascript.ded79e48c3c64e3a31ab.PNG",
+    "static/media/cybersecurity.PNG": "/static/media/cybersecurity.c6a27731800c16a197ff.PNG",
+    "static/media/logo.png": "/static/media/logo.81007bb713990d9a56fd.png",
+    "index.html": "/index.html",
+    "main.3a0c65b5.css.map": "/static/css/main.3a0c65b5.css.map",
+    "main.810e9632.js.map": "/static/js/main.810e9632.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a0c65b5.css",
+    "static/js/main.810e9632.js"
+  ]
+}
