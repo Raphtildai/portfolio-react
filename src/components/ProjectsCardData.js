@@ -1,6 +1,22 @@
 // import logo from "../assets/images/logo.png"
 const ProjectCardData = [
     {
+        imgsrc: "https://source.unsplash.com/1600x1600/?cereals",
+        date: "July, 2023",
+        title: "AppCereal Mobile App",
+        text: "In the AppCereal beta version, which is accessible on the Google Play Store, I incorporated additional functionality for the mobile application for the Africereal Group Benin. AppCereal is an intelligent Assistant that optimizes the management of farms and agricultural equipment in the cereal sectors through cultivation techniques, tools and practical information to guide actors.",
+        view: "https://play.google.com/store/apps/details?id=bj.dev.appcereal"
+
+    },
+    {
+        imgsrc: "https://source.unsplash.com/1600x1600/?books",
+        date: "May, 2023",
+        title: "The Writers Pen Publishers Website",
+        text: "I created an online storefront so the company could publish and sell books. The Writers Pen was formed to help upcoming writers to reach their potential goals through mentoring, exposure, marketing and promoting their works.",
+        view: "https://www.books.thewriterspen.co.ke/"
+
+    },
+    {
         imgsrc: "https://source.unsplash.com/1600x1600/?communication",
         date: "April 6, 2023",
         title: "SMS Plugin for WooCommerce Using Mobile Sasa API",
@@ -13,7 +29,7 @@ const ProjectCardData = [
         date: "Jan 13, 2023",
         title: "SIMPLE WEATHER FORECASTING APPLICATION",
         text: "I developed a weather forecasting web application that utilizes the Open Weather API to provide users with real-time weather updates based on the city they search for. This project demonstrated my skills in web development and API integration and I was able to complete it as part of the admission process for the Sasakazi apprenticeship program. Users can easily access weather information for any location and stay informed about changing weather conditions.",
-        view: "https://raphtildai.github.io/weather-forecasting/"
+        view: "https://weather-forecasting.tildaitech.co.ke/"
     },
     {
         imgsrc: "https://source.unsplash.com/1600x1600/?counseling",
@@ -33,8 +49,8 @@ const ProjectCardData = [
         imgsrc: "https://source.unsplash.com/1600x1600/?online-voting",
         date: "July, 2021",
         title: "STACCMU E-VOTING SYSTEM",
-        text: "I developed an online E-Voting System for St. Teresa of Avila Catholic Chaplaincy Meru University that has been used successfully in three elections. This innovative system has numerous benefits, including the ability to project results in real time and a significant reduction in paperwork by at least 90%. The system streamlines the election process and improves the accuracy and transparency of the results. This project demonstrates my skills in software development and my commitment to creating efficient solutions for real-world problems.",
-        view: "https://vote.korostech.co.ke"
+        text: "I developed an online E-Voting System for St. Teresa of Avila Catholic Chaplaincy Meru University that has been used successfully in four elections. This innovative system has numerous benefits, including the ability to project results in real time and a significant reduction in paperwork by at least 90%. The system streamlines the election process and improves the accuracy and transparency of the results. This project demonstrates my skills in software development and my commitment to creating efficient solutions for real-world problems.",
+        view: "https://staccmu.tildaitech.co.ke/"
     },
     {
         imgsrc: "https://source.unsplash.com/1600x1600/?church",
