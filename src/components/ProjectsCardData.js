@@ -33,6 +33,13 @@ const ProjectCardData = [
     },
     {
         imgsrc: "https://source.unsplash.com/1600x1600/?counseling",
+        date: "Sep, 2022 - Nov, 2022",
+        title: "WEDDING MANAGEMENT SYSTEM",
+        text: "This web-based platform offers wedding services. These services come in several categories for a certain event, and customers can reserve the category that best suits their wedding needs with us. Wedding cakes, tents, and decorations, photography, videography, wedding dresses, and catering services are just a few examples.",
+        view: "https://wedding.tildaitech.co.ke/"
+    },
+    {
+        imgsrc: "https://source.unsplash.com/1600x1600/?counseling",
         date: "Jul, 2022 - Nov, 2022",
         title: "STUDENT COUNSELING SYSTEM",
         text: "This is a one-of-a-kind application that I designed and developed as my final year project. It is still in development, but it is an app that aims to provide counseling services to Meru University of Science and Technology students. Among its functions are the ability to book counseling sessions online as well as attend counseling sessions online.",

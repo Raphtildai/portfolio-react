@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a0c65b5.css",
-    "main.js": "/static/js/main.810e9632.js",
+    "main.js": "/static/js/main.496934c8.js",
     "static/media/iebc.PNG": "/static/media/iebc.db6bd4e04fae631110c8.PNG",
     "static/media/ollessos.PNG": "/static/media/ollessos.21e762a8149985788cb0.PNG",
     "static/media/datascientisttoolbox.PNG": "/static/media/datascientisttoolbox.3f0770c4090ddf4e78a6.PNG",
@@ -14,10 +14,10 @@
     "static/media/logo.png": "/static/media/logo.81007bb713990d9a56fd.png",
     "index.html": "/index.html",
     "main.3a0c65b5.css.map": "/static/css/main.3a0c65b5.css.map",
-    "main.810e9632.js.map": "/static/js/main.810e9632.js.map"
+    "main.496934c8.js.map": "/static/js/main.496934c8.js.map"
   },
   "entrypoints": [
     "static/css/main.3a0c65b5.css",
-    "static/js/main.810e9632.js"
+    "static/js/main.496934c8.js"
   ]
 }
