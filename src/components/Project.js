@@ -2,7 +2,7 @@ import "./ProjectCardStyle.css";
 import ProjectCard from "./ProjectCard";
 import ProjectCardData from "./ProjectsCardData";
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class Project extends Component {
     render() {

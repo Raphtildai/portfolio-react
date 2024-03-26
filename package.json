@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://raphael.tildaitech.co.ke",
+  "homepage": "127.0.0.1:9000", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {

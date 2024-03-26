@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import Home from "./routes/home";
 import About from "./routes/about";
 import Certifications from "./routes/certifications";

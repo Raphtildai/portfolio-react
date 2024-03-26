@@ -1,5 +1,5 @@
 import "./FooterStyle.css";
-import React from 'react'
+import React from 'react';
 
 import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import { NavLink } from "react-router-dom";

@@ -6,10 +6,27 @@ import cybersecurity from "../assets/images/cybersecurity.PNG";
 import javascript from "../assets/images/javascript.PNG";
 import backend from "../assets/images/backend development.png";
 import frontend from "../assets/images/front end development.png";
+import globalentrepreneurship from "../assets/images/global_entrepreneurship.PNG";
+import systemadmin from "../assets/images/system_administration.PNG";
+import emergingtech from "../assets/images/cybersecurity_and_emerging_technologies.PNG";
 
 const CertificateCardData = [
     {
-        imgsrc: "",
+        imgsrc: emergingtech,
+        completion_date: "March 26, 2024",
+        title: "Cybersecurity and Emerging Technologies Awareness Training",
+        description: "The Ministry of ICT and Digital Ecomy, in collaboration with Serianu, conducted a three-day training program on cybersecurity and emerging technologies awareness. I received training on a variety of topics related to cyber security, information security, and its significance in the realm of technology.",
+        verify: "https://training.smartacademy.go.ke/?p=508&certificate_id=ICTA-1711431346-1758-2691",
+    },
+    {
+        imgsrc: systemadmin,
+        completion_date: "February 15, 2024",
+        title: "System Administration and IT Infrastructure Services",
+        description: "I finished the IT Infrastructure Services and System Administration course that Coursera, in collaboration with the Ministry of ICT and the Digital Economy, was offering. I learned more about a wide range of system administration and IT infrastructure-related subjects.",
+        verify: "https://coursera.org/verify/QGYYBT2RJ97M",
+    },
+    {
+        imgsrc: globalentrepreneurship,
         completion_date: "April 18, 2023",
         title: "Global Entrepreneurship & Innovation Bootcamp",
         description: "I completed Thunderbird School of Global Management's 100 Million Learners Bootcamp on Global Entrepreneurship & Innovation, a cutting-edge program that empowers entrepreneurs and innovators to achieve their dreams and elevate their careers. This unique curriculum focuses on global dynamics in an era of rapid change and disruption, with eighteen leading-edge themes that are crucial to success in the Fourth Industrial Revolution. The program is tailored for maximum flexibility, offering new dimensions in online management education, and provides templates for starting new global businesses and nonprofits, as well as proven 21st-century strategies for creating value through innovation in existing enterprises across all sectors. Thanks to the generous philanthropic gift from the Najafi Global Initiative, this program is available at no cost to learners at all educational levels and is the entry-level program of the 100 Million Learners Global Initiative. This program has equipped me with the skills and knowledge needed to be a successful entrepreneur and innovator in the global marketplace.",

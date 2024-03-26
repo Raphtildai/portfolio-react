@@ -1,6 +1,6 @@
 import "./CertificateCardStyle.css";
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import CertificateCard from "./CertificateCard";
 import CertificateCardData from "./CertificateCardData";
 
