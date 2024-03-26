@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/127.0.0.1:9000/static/css/main.3a0c65b5.css",
-    "main.js": "/127.0.0.1:9000/static/js/main.cb57a3f2.js",
-    "static/media/iebc.PNG": "/127.0.0.1:9000/static/media/iebc.db6bd4e04fae631110c8.PNG",
-    "static/media/cybersecurity_and_emerging_technologies.PNG": "/127.0.0.1:9000/static/media/cybersecurity_and_emerging_technologies.8b8ebf92bacac18b4546.PNG",
-    "static/media/ollessos.PNG": "/127.0.0.1:9000/static/media/ollessos.21e762a8149985788cb0.PNG",
-    "static/media/system_administration.PNG": "/127.0.0.1:9000/static/media/system_administration.aec09dc22c6d8e1b8421.PNG",
-    "static/media/datascientisttoolbox.PNG": "/127.0.0.1:9000/static/media/datascientisttoolbox.3f0770c4090ddf4e78a6.PNG",
-    "static/media/rprogramming.PNG": "/127.0.0.1:9000/static/media/rprogramming.1301392cafd232bbb643.PNG",
-    "static/media/google.PNG": "/127.0.0.1:9000/static/media/google.61c6d7abbb0a3d177df2.PNG",
-    "static/media/backend development.png": "/127.0.0.1:9000/static/media/backend development.b29a0690ac5294d18d63.png",
-    "static/media/front end development.png": "/127.0.0.1:9000/static/media/front end development.ed4a7245136154e57dad.png",
-    "static/media/global_entrepreneurship.PNG": "/127.0.0.1:9000/static/media/global_entrepreneurship.f7d3c080027c841ac73d.PNG",
-    "static/media/javascript.PNG": "/127.0.0.1:9000/static/media/javascript.ded79e48c3c64e3a31ab.PNG",
-    "static/media/cybersecurity.PNG": "/127.0.0.1:9000/static/media/cybersecurity.c6a27731800c16a197ff.PNG",
-    "static/media/logo.png": "/127.0.0.1:9000/static/media/logo.81007bb713990d9a56fd.png",
-    "index.html": "/127.0.0.1:9000/index.html",
-    "main.3a0c65b5.css.map": "/127.0.0.1:9000/static/css/main.3a0c65b5.css.map",
-    "main.cb57a3f2.js.map": "/127.0.0.1:9000/static/js/main.cb57a3f2.js.map"
+    "main.css": "/static/css/main.3a0c65b5.css",
+    "main.js": "/static/js/main.822ae633.js",
+    "static/media/iebc.PNG": "/static/media/iebc.db6bd4e04fae631110c8.PNG",
+    "static/media/cybersecurity_and_emerging_technologies.PNG": "/static/media/cybersecurity_and_emerging_technologies.8b8ebf92bacac18b4546.PNG",
+    "static/media/ollessos.PNG": "/static/media/ollessos.21e762a8149985788cb0.PNG",
+    "static/media/system_administration.PNG": "/static/media/system_administration.aec09dc22c6d8e1b8421.PNG",
+    "static/media/datascientisttoolbox.PNG": "/static/media/datascientisttoolbox.3f0770c4090ddf4e78a6.PNG",
+    "static/media/rprogramming.PNG": "/static/media/rprogramming.1301392cafd232bbb643.PNG",
+    "static/media/google.PNG": "/static/media/google.61c6d7abbb0a3d177df2.PNG",
+    "static/media/backend development.png": "/static/media/backend development.b29a0690ac5294d18d63.png",
+    "static/media/front end development.png": "/static/media/front end development.ed4a7245136154e57dad.png",
+    "static/media/global_entrepreneurship.PNG": "/static/media/global_entrepreneurship.f7d3c080027c841ac73d.PNG",
+    "static/media/javascript.PNG": "/static/media/javascript.ded79e48c3c64e3a31ab.PNG",
+    "static/media/cybersecurity.PNG": "/static/media/cybersecurity.c6a27731800c16a197ff.PNG",
+    "static/media/logo.png": "/static/media/logo.81007bb713990d9a56fd.png",
+    "index.html": "/index.html",
+    "main.3a0c65b5.css.map": "/static/css/main.3a0c65b5.css.map",
+    "main.822ae633.js.map": "/static/js/main.822ae633.js.map"
   },
   "entrypoints": [
     "static/css/main.3a0c65b5.css",
-    "static/js/main.cb57a3f2.js"
+    "static/js/main.822ae633.js"
   ]
 }
