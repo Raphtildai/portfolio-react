@@ -14,7 +14,7 @@
     max-width: 500px;
 }
 .about .left:hover{
-    border: 1px solid #261fff;
+    border: 1px solid #ff9700;
     border-radius: 10px;
 }
 .about .left p {
