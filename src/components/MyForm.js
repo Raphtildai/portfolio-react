@@ -73,9 +73,9 @@ const MyForm = () => {
               </NavLink>
             </div>
             <div className="social-link">
-              <NavLink to="mailto:kipchirchirraph@gmail.com">
+              <NavLink to="mailto:raphael@tildaitech.co.ke">
               <span className="icon"><FaMailBulk size={40} /></span>
-                <h2>Email</h2><h3>kipchirchirraph@gmail.com</h3>
+                <h2>Email</h2><h3>raphael@tildaitech.co.ke</h3>
               </NavLink>
             </div>
             <div className="social-link">
