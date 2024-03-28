@@ -1,8 +1,9 @@
 import "./MyFormStyle.css";
 import React, { useRef, useState } from 'react';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import { FaMailBulk, FaPhone, FaSpinner, FaWhatsapp } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import axios from "axios";
 
 const MyForm = () => {
   const [loading, setLoading] = useState(false);
@@ -15,31 +16,49 @@ const MyForm = () => {
     return re.test(email);
   };
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     setMessage(null);
     setErrorMessage(null);
     e.preventDefault();
-    const userEmail = e.target.user_email.value;
+    // const userEmail = e.target.user_email.value;
+    const { user_email, subject, message } = e.target.elements;
 
-    if (!validateEmail(userEmail)) {
+    if (!validateEmail(user_email.value)) {
         setErrorMessage("Please enter a valid email address.");
         return;
     }
 
+    // Send Email
     setLoading(true);
-    emailjs
-      .sendForm("service_5z43xno", "template_yopp9kg", form.current, "8kM_BFfbW98m-Sl0t")
-      .then(() => {
-        setLoading(false);
-        setMessage("Your message was sent successfully!");
-        setErrorMessage(null);
-        e.target.reset();
-      })
-      .catch((error) => {
-        setLoading(false);
-        setMessage(null);
-        setErrorMessage(`There was an error sending your message: ${error.message}`);
+    try {
+      const response = await axios.post('https://email.tildaitech.co.ke/send-email', {
+        senderEmail: user_email.value,
+        recipientEmail: 'raphael@tildaitech.co.ke', 
+        subject: subject.value,
+        message: message.value
       });
+      setLoading(false);
+      setMessage(response.data.message);
+      form.current.reset();
+    } catch (error) {
+      setLoading(false);
+      setErrorMessage(`There was an error sending your message: ${error.message}`);
+    }
+    // // Email JS
+    // setLoading(true);
+    // emailjs
+    //   .sendForm("service_5z43xno", "template_yopp9kg", form.current, "8kM_BFfbW98m-Sl0t")
+    //   .then(() => {
+    //     setLoading(false);
+    //     setMessage("Your message was sent successfully!");
+    //     setErrorMessage(null);
+    //     e.target.reset();
+    //   })
+    //   .catch((error) => {
+    //     setLoading(false);
+    //     setMessage(null);
+    //     setErrorMessage(`There was an error sending your message: ${error.message}`);
+    //   });
   };
 
   return (

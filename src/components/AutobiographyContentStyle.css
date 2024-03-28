@@ -1,10 +1,11 @@
 .autobiography {
+    border-radius: 10px;
     align-items: center;
     display: flex;
     flex-direction: column;
     margin: auto;
     padding: 1rem;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .autobiography p {
@@ -14,9 +15,11 @@
     margin-bottom: 1em;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 767px) {
     .autobiography{
-        max-width: 80%;
-        padding: 0.5rem;
+        background-color: #eeece8;
+        margin: 1rem;
+        max-width: 100%;
+        padding: 1rem;
     }
 }
