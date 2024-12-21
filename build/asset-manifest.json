@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.91bc9662.css",
-    "main.js": "/static/js/main.d83005cb.js",
+    "main.css": "/static/css/main.45e540f7.css",
+    "main.js": "/static/js/main.45048c61.js",
     "static/media/weather.png": "/static/media/weather.f590b14fb4c86689af4d.png",
     "static/media/wedding.png": "/static/media/wedding.861031306221b7880c42.png",
     "static/media/cereals_farm.png": "/static/media/cereals_farm.8d465691348074116312.png",
     "static/media/voting.png": "/static/media/voting.ae9c1b0d7e30f7a27161.png",
     "static/media/Certificate.png": "/static/media/Certificate.64e69e454da2569eb44d.png",
+    "static/media/coding.png": "/static/media/coding.2f9e5a79bea27729b973.png",
     "static/media/iebc.PNG": "/static/media/iebc.db6bd4e04fae631110c8.PNG",
     "static/media/sms.png": "/static/media/sms.2a9501910aadec630273.png",
     "static/media/cybersecurity_and_emerging_technologies.PNG": "/static/media/cybersecurity_and_emerging_technologies.8b8ebf92bacac18b4546.PNG",
@@ -26,11 +27,11 @@
     "static/media/cybersecurity.PNG": "/static/media/cybersecurity.c6a27731800c16a197ff.PNG",
     "static/media/logo.png": "/static/media/logo.81007bb713990d9a56fd.png",
     "index.html": "/index.html",
-    "main.91bc9662.css.map": "/static/css/main.91bc9662.css.map",
-    "main.d83005cb.js.map": "/static/js/main.d83005cb.js.map"
+    "main.45e540f7.css.map": "/static/css/main.45e540f7.css.map",
+    "main.45048c61.js.map": "/static/js/main.45048c61.js.map"
   },
   "entrypoints": [
-    "static/css/main.91bc9662.css",
-    "static/js/main.d83005cb.js"
+    "static/css/main.45e540f7.css",
+    "static/js/main.45048c61.js"
   ]
 }

@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="socials">
                     <NavLink to="https://www.facebook.com/profile.php?id=100084354161664" target={"_blank"}><FaFacebook size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>
                     <NavLink to="https://twitter.com/Tildai10" target={"_blank"}><FaTwitter size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>
-                    <NavLink to="https://www.linkedin.com/in/raphael-tildai-83b410190/" target={"_blank"}><FaLinkedin size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>
+                    <NavLink to="https://www.linkedin.com/in/raphaeltildai/" target={"_blank"}><FaLinkedin size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>
                     <NavLink to="https://github.com/Raphtildai" target={"_blank"}><FaGithub size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>
 
                 </div>

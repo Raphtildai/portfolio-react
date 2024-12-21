@@ -7,7 +7,7 @@
 }
 .hero-img::before {
     content: "";
-    background: url("https://source.unsplash.com/1600x1600/?technology");
+    background: url("../assets/images/banners/coding.png");
     background-size: cover;
     background-position: center top;
     height: 100%;
