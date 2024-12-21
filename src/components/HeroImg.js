@@ -1,4 +1,5 @@
 import "./HeroImgStyle.css";
+import programming from "../assets/images/banners/binary.png"
 
 import React from 'react';
 import { Link } from "react-router-dom";
@@ -7,7 +8,7 @@ const HeroImg = () => {
   return (
     <div className="hero">
         <div className="mask">
-            <img className="intro-img" src="https://source.unsplash.com/1600x1600/?programming" alt="HeroImage"></img>
+            <img className="intro-img" src={programming} alt="HeroImage"></img>
         </div>
         <div className="content">
           <p>Hi, I'm Raphael Tildai</p>

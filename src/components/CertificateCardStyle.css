@@ -19,6 +19,10 @@
     border-radius: 10px;
     background: #fff;
     padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    justify-content: space-between; /* Distributes space between children */
+    height: 100%; /* Ensures all cards have the same height */
 }
 .certificate-card:hover {
     border: 1px solid#261fff;
@@ -43,6 +47,12 @@
     padding: 1rem 0;
     text-align: center;
 }
+.certificate-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 .certificate-details p {
     color: black;
     padding-bottom: 1rem;
@@ -50,9 +60,11 @@
     text-align: justify;
 }
 .certificate-btns {
+    margin-top: auto; /* Pushes buttons to the bottom of the container */
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 1rem;
+    gap: 10px; /* Adds spacing between buttons */
 }
 .certificate-btns .btn-light {
     text-align: center;

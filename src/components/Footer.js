@@ -24,8 +24,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="right">
-                <h4>About Me</h4>
-                <p>Dedicated and enthusiastic software engineer with four years of front end and back end programming expertise for both web and mobile applications.</p>
+                <h4>My Passion</h4>
+                <p>Harnessing the power of technology to create innovative solutions for a better society.</p>
                 <div className="socials">
                     <NavLink to="https://www.facebook.com/profile.php?id=100084354161664" target={"_blank"}><FaFacebook size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>
                     <NavLink to="https://twitter.com/Tildai10" target={"_blank"}><FaTwitter size={30} style={{color: "#fff", marginRight: "1rem"}} /></NavLink>

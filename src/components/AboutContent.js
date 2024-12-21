@@ -1,4 +1,6 @@
 import "./AboutContentStyle.css";
+import code from "../assets/images/banners/code.png"
+import programming from "../assets/images/banners/programming.png"
 
 import React from "react";
 import { Link } from "react-router-dom";
@@ -32,14 +34,14 @@ const AboutContent = () => {
           <div className="img-container">
             <div className="img-stack top">
               <img
-                src="https://source.unsplash.com/1600x1600/?React"
+                src={programming}
                 alt="AboutImg"
                 className="img"
               />
             </div>
             <div className="img-stack bottom">
               <img
-                src="https://source.unsplash.com/1600x1600/?JavaScript"
+                src={code}
                 alt="AboutImg"
                 className="img"
               />
@@ -48,9 +50,12 @@ const AboutContent = () => {
         </div>
       </div>
       <div className="resume-btn">
-        <Link to="/resume">
+        {/* For External CV e.g. Europass */}
+        <Link to="https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/raphael-kipchirchir/3a56e8ef-5e88-4724-8360-440d9a284e3b?view=html" className="btn btn-light">My Resume</Link>
+        {/* For CV from google */}
+        {/* <Link to="/resume">
           <button className="btn btn-light">My Resume</button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

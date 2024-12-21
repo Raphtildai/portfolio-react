@@ -1,26 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.695b68f3.css",
-    "main.js": "/static/js/main.5c4e57ae.js",
+    "main.css": "/static/css/main.91bc9662.css",
+    "main.js": "/static/js/main.d83005cb.js",
+    "static/media/weather.png": "/static/media/weather.f590b14fb4c86689af4d.png",
+    "static/media/wedding.png": "/static/media/wedding.861031306221b7880c42.png",
+    "static/media/cereals_farm.png": "/static/media/cereals_farm.8d465691348074116312.png",
+    "static/media/voting.png": "/static/media/voting.ae9c1b0d7e30f7a27161.png",
+    "static/media/Certificate.png": "/static/media/Certificate.64e69e454da2569eb44d.png",
     "static/media/iebc.PNG": "/static/media/iebc.db6bd4e04fae631110c8.PNG",
+    "static/media/sms.png": "/static/media/sms.2a9501910aadec630273.png",
     "static/media/cybersecurity_and_emerging_technologies.PNG": "/static/media/cybersecurity_and_emerging_technologies.8b8ebf92bacac18b4546.PNG",
+    "static/media/binary.png": "/static/media/binary.b6302c28f67a9b65e023.png",
     "static/media/ollessos.PNG": "/static/media/ollessos.21e762a8149985788cb0.PNG",
+    "static/media/programming.png": "/static/media/programming.44bb224aea37cc65eadd.png",
     "static/media/system_administration.PNG": "/static/media/system_administration.aec09dc22c6d8e1b8421.PNG",
+    "static/media/code.png": "/static/media/code.c4ff7fdf765a2edf041b.png",
     "static/media/datascientisttoolbox.PNG": "/static/media/datascientisttoolbox.3f0770c4090ddf4e78a6.PNG",
     "static/media/rprogramming.PNG": "/static/media/rprogramming.1301392cafd232bbb643.PNG",
     "static/media/google.PNG": "/static/media/google.61c6d7abbb0a3d177df2.PNG",
     "static/media/backend development.png": "/static/media/backend development.b29a0690ac5294d18d63.png",
     "static/media/front end development.png": "/static/media/front end development.ed4a7245136154e57dad.png",
+    "static/media/counselling.png": "/static/media/counselling.b7189805ad2bbdc0a2ec.png",
     "static/media/global_entrepreneurship.PNG": "/static/media/global_entrepreneurship.f7d3c080027c841ac73d.PNG",
     "static/media/javascript.PNG": "/static/media/javascript.ded79e48c3c64e3a31ab.PNG",
     "static/media/cybersecurity.PNG": "/static/media/cybersecurity.c6a27731800c16a197ff.PNG",
     "static/media/logo.png": "/static/media/logo.81007bb713990d9a56fd.png",
     "index.html": "/index.html",
-    "main.695b68f3.css.map": "/static/css/main.695b68f3.css.map",
-    "main.5c4e57ae.js.map": "/static/js/main.5c4e57ae.js.map"
+    "main.91bc9662.css.map": "/static/css/main.91bc9662.css.map",
+    "main.d83005cb.js.map": "/static/js/main.d83005cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.695b68f3.css",
-    "static/js/main.5c4e57ae.js"
+    "static/css/main.91bc9662.css",
+    "static/js/main.d83005cb.js"
   ]
 }
